@@ -7,13 +7,13 @@ class Animal:
 		print("Eating")
 
 class Dog(Animal):
-	def whoAmI(self):
+	def whoAmI(self): # overriding
 		print("Dog")
 	def bark(self):
 		print("Barking")
 
 class Cat(Animal):
-	def whoAmI(self):
+	def whoAmI(self): # overriding
 		print("Cat")
 	def meow(self):
 		print("Meowing")
