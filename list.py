@@ -15,6 +15,8 @@ shopping_list.remove("Chocolate")
 
 print("LIFO: " + shopping_list.pop())
 
+shopping_list.sort()
+
 for x in shopping_list:
 	print("Get " + x)
 
